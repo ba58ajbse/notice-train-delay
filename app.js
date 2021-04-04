@@ -8,8 +8,8 @@ const HP = 'https://unkou.keikyu.co.jp/'
 const TWITTER = 'https://twitter.com/keikyu_official'
 
 const message = `\n京急線の遅延があります\n
-                ${HP}\n
-                ${TWITTER}`
+                HP: ${HP}\n
+                Twitter: ${TWITTER}`
 
 const config = {
     url: LINE_URL,
